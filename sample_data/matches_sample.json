@@ -1,0 +1,67 @@
+[
+ {
+  "apollo_contact_id": "apc_002",
+  "name": "Jane Example",
+  "first_name": "Jane",
+  "last_name": "Example",
+  "linkedin_url": "https://www.linkedin.com/in/jane-example",
+  "new_company": "Acme Widgets",
+  "new_domain": "acme.test",
+  "old_domain": "oldco.test",
+  "new_title": "VP Marketing",
+  "sfdc_contact_id": "003000000000002AAA",
+  "match": {
+   "email": "jane.example@acme.test",
+   "email_status": "verified",
+   "org_domain": "acme.test",
+   "first_name": "Jane",
+   "last_name": "Example",
+   "title": "VP Marketing",
+   "linkedin_url": "https://www.linkedin.com/in/jane-example"
+  },
+  "accept": true,
+  "reason": "ok"
+ },
+ {
+  "apollo_contact_id": "apc_003",
+  "name": "Sam Sample",
+  "first_name": "Sam",
+  "last_name": "Sample",
+  "linkedin_url": "https://www.linkedin.com/in/sam-sample",
+  "new_company": "Globex Test",
+  "new_domain": "globex.test",
+  "old_domain": "oldco.test",
+  "new_title": "Head of Growth",
+  "sfdc_contact_id": "003000000000003AAA",
+  "match": {
+   "email": "sam@globex-mail.test",
+   "email_status": "verified",
+   "org_domain": "globex.test",
+   "first_name": "Sam",
+   "last_name": "Sample",
+   "title": "Head of Growth",
+   "linkedin_url": "https://www.linkedin.com/in/sam-sample"
+  },
+  "accept": true,
+  "reason": "ok"
+ },
+ {
+  "apollo_contact_id": "apc_004",
+  "name": "Alex Placeholder",
+  "first_name": "Alex",
+  "last_name": "Placeholder",
+  "linkedin_url": "https://www.linkedin.com/in/alex-placeholder",
+  "new_company": "Initech Test",
+  "new_domain": "initech.test",
+  "old_domain": "example.com",
+  "new_title": "Demand Gen Manager",
+  "sfdc_contact_id": "003000000000004AAA",
+  "match": {
+   "email": "",
+   "email_status": "",
+   "org_domain": "initech.test"
+  },
+  "accept": false,
+  "reason": "no_email"
+ }
+]

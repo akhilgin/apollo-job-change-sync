@@ -1,0 +1,23 @@
+{
+  "salesforce": {
+    "api_version": "v60.0",
+    "target_org": null,
+    "contact_changed_job_field": "Changed_Job__c",
+    "contact_stage_field": "Stage__c",
+    "contact_stage_value": "Changed Job",
+    "contact_linkedin_field": "LinkedIn_Profile__c",
+    "contact_lead_source": "Apollo",
+    "account_domain_field": "Domain__c",
+    "account_target_field": null
+  },
+  "apollo": {
+    "base_url": "https://api.apollo.io/api/v1",
+    "per_page": 100,
+    "max_pages": 50
+  },
+  "generic_domains": ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "icloud.com", "linkedin.com"],
+  "account_domain_basis": "org",
+  "flag_scope": "all",
+  "output_dir": "output",
+  "backup_dir": "backups"
+}
